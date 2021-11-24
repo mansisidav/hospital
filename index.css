@@ -1,0 +1,22 @@
+.bg-b {
+  background-color: #005897;
+}
+.text-b {
+  color: #005897;
+}
+.inp:focus {
+  outline: none;
+}
+.menubtn:hover {
+  background-color: #e5e5e5;
+  color: #369;
+}
+.menubtnsm:hover {
+  background-color: #024b7f;
+}
+.atv-country {
+  outline-color: #005897;
+  outline-width: thin;
+  outline-style: solid;
+  background-color: #fff;
+}

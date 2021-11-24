@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+
+<title>Document</title>
+  </head>
+  <body>
+    <!-- registeration language section -->
+    <div class="flex justify-between px-4 py-1 items-center">
+      <span>Register as Doctor/Hospital</span>
+      <select name="lang" class="p-1 border-gray-500 border-2">
+        <option value="Select Language">Select Language</option>
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="French">French</option>
+        <option value="Punjabi">Punjabi</option>
+        <option value="Urdu">Urdu</option>
+        <option value="Russian">Russian</option>
+      </select>
+    </div>
+
+    <!-- header -->
+    <div class="flex justify-between px-6 py-2 items-center bg-b">
+      <img src="logo.png" class="w-56" />
+      <div class="flex">
+       <div class="block sm:hidden cursor-pointer " id="menu"> <i class="material-icons text-white ">dehaze</i></div>
+        <div class="sm:flex space-x-4 hidden ">
+          <div class="flex text-white space-x-2">
+            <i class="material-icons text-white ">mail</i>
+            <p>hello@vaidam.com</p>
+          </div>
+          <div class="flex text-white space-x-2">
+            <i class="material-icons text-white ">card_membership</i>
+            <p>Get a FREE Quote</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class=" h-16 md:flex hidden justify-center" style="background-color: #eeeeee;">
+  <a class="h-full flex items-center p-4 cursor-pointer menubtn" style="color: #333; font-size: 20px;">Home</a>
+  <a class="h-full flex items-center p-4 cursor-pointer menubtn" style="color: #333; font-size: 20px;">Hospitals</a>
+  <a class="h-full flex items-center p-4 cursor-pointer menubtn" style="color: #333; font-size: 20px;">Docters</a>
+  <a class="h-full flex items-center p-4 cursor-pointer menubtn" style="color: #333; font-size: 20px;">Cost</a>
+  <a class="h-full flex items-center p-4 cursor-pointer menubtn" style="color: #333; font-size: 20px;"> Knowledge</a>
+  <a class="h-full flex items-center p-4 cursor-pointer menubtn" style="color: #333; font-size: 20px;">Patient Stories</a>
+  <a class="h-full flex items-center p-4 cursor-pointer menubtn" style="color: #333; font-size: 20px;">FREE Consult</a>
+
+
+</div >
+<div class="  flex flex-col  justify-center bg-b p-2 hidden sm:hidden" id="menulinks">
+  <a class=" flex items-center p-4 cursor-pointer menubtnsm border-b-2 border-white" style="color: #fff; font-size: 16px;">Home</a>
+  <a class=" flex items-center p-4 cursor-pointer menubtnsm border-b-2 border-white" style="color: #fff; font-size: 16px;">Hospitals</a>
+  <a class=" flex items-center p-4 cursor-pointer menubtnsm border-b-2 border-white" style="color: #fff; font-size: 16px;">Doters</a>
+  <a class=" flex items-center p-4 cursor-pointer menubtnsm border-b-2 border-white" style="color: #fff; font-size: 16px;">Cost</a>
+  <a class=" flex items-center p-4 cursor-pointer menubtnsm border-b-2 border-white" style="color: #fff; font-size: 16px;">Knowledge</a>
+  <a class=" flex items-center p-4 cursor-pointer menubtnsm border-b-2 border-white" style="color: #fff; font-size: 16px;">Patient Stories</a>
+  <a class=" flex items-center p-4 cursor-pointer menubtnsm border-b-2 border-white" style="color: #fff; font-size: 16px;">FREE Consult</Canvas></a>
+ <div class="flex flex-row">
+   <a class="menubtnsm"> <img src="fb.svg" alt="" class="w-16 p-3 " ></a>
+   <a class="menubtnsm"> <img src="tw.svg" alt="" class="w-16 p-3 " ></a>
+   <a class="menubtnsm"> <img src="link.svg" alt="" class="w-16 p-3 " ></a>
+   <a class="menubtnsm"> <img src="images/you tube-03.svg" alt="" class="w-16 p-3 " ></a>
+
+    
+ </div>
+</div>
+
+    
+    <!-- search section -->
+
+    <div class="flex flex-col items-center px-10 py-10 max-w-screen-md mx-auto  ">
+      <h1 class="p-2 text-xl sm:text-3xl font-medium  text-center" style="color:#023b5e">
+        Treatment With Unmatched Personal Care
+      </h1>
+      <div class="h-12  w-full border-gray-300 border-2 items-center flex px-4 ">
+        <input class="flex-grow inp " placeholder="Search by disease, procedure, docter or hospital">
+         
+        </input>
+        <div class=" bg-gray-300  h-full ml-4" style="width: 2px;"></div>
+        <i class="material-icons text-b pl-4 ">search</i>
+      </div>
+      <p class="text-gray-500 text-sm md:flex hidden">Example: Knee replacement, Medanta Hospital, Dr. Ashok kumar...</p>
+    </div>
+    
+    <!-- plan section -->
+    <div class="max-w-screen-lg mx-auto ">
+      <h1 class="p-2  text-center sm:text-2xl font-semibold  "  >Plan Travel to Treatment : Under One roof</h1>
+      <div class="flex justify-around  mt-4">
+        <div class="flex flex-col items-center w-20 sm:w-40 space-y-2 "> 
+         <img src="images/report.svg" alt="" class="w-10 sm:w-16">
+         <p class="text-sm sm:text-base text-center">Send your reports & preferences</p>
+          
+        </div>
+        <div class="flex flex-col items-center w-20 sm:w-40 space-y-2 "> 
+          <img src="images/cost.svg" alt="" class="w-10 sm:w-16">
+          <p class="text-sm sm:text-base text-center">Receive cost estimate in 48 Hours</p>
+           
+         </div>
+         <div class="flex flex-col items-center w-20 sm:w-40 space-y-2 "> 
+          <img src="images/received.svg" alt="" class="w-10 sm:w-16">
+          <p class="text-sm sm:text-base text-center">Get received by our team</p>
+           
+         </div>
+         <div class="flex flex-col items-center w-20 sm:w-40 space-y-2 "> 
+          <img src="images/flyback.svg" alt="" class="w-10 sm:w-16">
+          <p class="text-sm sm:text-base text-center">Get treated and fly back</p>
+           
+         </div>
+   
+      </div>
+      <h1 class="p-2 pb-12 text-lg  text-center mt-4 sm:text-2xl " style="color: #b0b0b0;">Transparent - Professional - Without Hassles</h1>
+
+    </div>
+
+
+    <!-- country section -->
+    <div style="background-color: #f9f9f9;">
+      <h1 class="p-2 text-xl font-medium  font-bold text-center">Know the Top Hospitals</h1>
+      <p class=" text-s  text-center mt-1  text-gray-500">Select Country</p>
+      <div>
+      </div>
+
+
+      <div class="swiper  h-56 flex flex-col px-2 max-w-screen-md ">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper py-4 space-x-0 ">
+          <!-- Slides -->
+          <div class="swiper-slide ">
+            <div class=" border-gray-300 cursor-pointer p-4 m-1 atv-country  flex-col flex items-center justify-center border-2 flex-grow rounded" id="btn-india">
+              <img src="images/india.svg" alt="" class="w-24">
+              <p>India</p>
+            </div> 
+          </div>
+          <div class="swiper-slide ">
+
+            <div class=" border-gray-300 cursor-pointer p-4 mx-1 flex-col flex items-center justify-center border-2 flex-grow rounded" id="btn-turkey">
+              <img src="images/turkey.svg" alt="" class="w-24">
+              <p>Turkey</p>
+            </div>
+          </div>
+    
+          
+          <div class="swiper-slide ">
+            <div class=" border-gray-300 cursor-pointer p-4 mx-1 flex-col flex items-center justify-center border-2 flex-grow rounded" id="btn-uae">
+              <img src="images/uae.svg" alt="" class="w-24">
+              <p>Uae</p>
+            </div>
+          </div>
+          <div class="swiper-slide ">
+
+            <div class=" border-gray-300 cursor-pointer p-4 mx-1  flex-col flex items-center justify-center border-2 flex-grow rounded" id="btn-germany">
+              <img src="images/germany.svg" alt="" class="w-24">
+              <p>Germany</p>
+            </div>
+
+          </div>
+    
+          
+
+          
+
+          
+        </div>
+        
+        <div class="swiper-pagination pt-10"></div>
+      
+      </div>
+
+
+      <div class="flex flex-col items-center pb-8 ">
+        <p>Select City</p>
+        <select name="city" class="p-1 w-40 border-gray-500 border-2" id="cityselector">
+          <option value="Select City"> </option>
+          
+        </select>
+          
+
+      </div>
+    </div>
+
+    <!-- top hospitals section -->
+
+    <!-- cost section -->
+
+    <!-- treatment costs -->
+
+    <!-- leading doctors -->
+
+    <!-- services section -->
+
+    <!-- stories section -->
+
+    <!-- news -->
+  
+    <!-- footer section -->
+    <script src="index.js"></script>
+
+  </body>
+</html>

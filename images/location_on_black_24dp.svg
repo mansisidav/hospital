@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.259" height="26.259" viewBox="0 0 26.259 26.259">
+  <g id="location_on_black_24dp" transform="translate(13.13 13.13)">
+    <g id="location_on_black_24dp-2" data-name="location_on_black_24dp" transform="translate(-13.13 -13.13)">
+      <path id="Path_585" data-name="Path 585" d="M0,0H26.259V26.259H0Z" fill="none"/>
+      <path id="Path_586" data-name="Path 586" d="M12.659,2A7.653,7.653,0,0,0,5,9.659c0,5.744,7.659,14.224,7.659,14.224S20.318,15.4,20.318,9.659A7.653,7.653,0,0,0,12.659,2ZM7.188,9.659a5.471,5.471,0,0,1,10.941,0c0,3.151-3.151,7.867-5.471,10.81C10.383,17.548,7.188,12.777,7.188,9.659Z" transform="translate(0.471 0.188)"/>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="2.735" cy="2.735" r="2.735" transform="translate(10.394 7.112)"/>
+    </g>
+  </g>
+</svg>

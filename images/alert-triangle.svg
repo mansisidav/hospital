@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="alert-triangle" transform="translate(74 75.049)">
+    <g id="alert-triangle-2" data-name="alert-triangle" transform="translate(-74 -75.158)">
+      <g id="alert-triangle-3" data-name="alert-triangle" transform="translate(0 0)">
+        <rect id="Rectangle_290" data-name="Rectangle 290" width="60" height="60" transform="translate(60 0.109) rotate(90)" fill="#e43939" opacity="0"/>
+        <path id="Path_815" data-name="Path 815" d="M55.052,37.628,35.816,5.94a8.633,8.633,0,0,0-14.5,0L2.084,37.628A7.431,7.431,0,0,0,1.959,45.1a8.462,8.462,0,0,0,7.373,4.235H47.8A8.464,8.464,0,0,0,55.177,45.2,7.431,7.431,0,0,0,55.052,37.628ZM28.568,39.372a2.491,2.491,0,1,1,2.508-2.491A2.5,2.5,0,0,1,28.568,39.372Zm2.508-9.965a2.508,2.508,0,0,1-5.016,0V19.442a2.508,2.508,0,0,1,5.016,0Z" transform="translate(1.326 3.099)" fill="#e43939"/>
+      </g>
+    </g>
+  </g>
+</svg>
